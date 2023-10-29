@@ -20,6 +20,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        View::share('key', 'value');
+        /* A variável $key irá estar disponivel em toda view */
+        // View::share('key', 'value');
     }
 }

@@ -18,8 +18,9 @@
 
     <body>
         <div class="">
-            <h2>{{ $name }}</h2>
-            <h3>{{ $key }}</h3>
+            <h1>Título: {{ $titulo }}</h1>
+            <h2>Nome: {{ $name }}</h2>
+            {{-- <h3>Key: {{ $key }}</h3> --}}
         </div>
 
     </body>
